@@ -1,0 +1,9 @@
+---
+- name: Validate required variables
+  ansible.builtin.assert:
+    that: workspace_provision_api_url is defined
+    quiet: true
+
+- name: Execute workspace_provision
+  ansible.builtin.debug:
+    msg: "Role workspace_provision for stevefulme1.domino"

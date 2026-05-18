@@ -1,0 +1,31 @@
+---
+namespace: stevefulme1
+name: domino
+version: 1.0.0
+readme: README.md
+authors:
+  - Steve Fulmer <sfulmer@redhat.com>
+description: >-
+  Ansible Collection for Domino Data Lab MLOps platform.
+  Provides modules for project, environment, model, endpoint, hardware tier,
+  dataset, job, and workspace management via the Domino REST API.
+license:
+  - GPL-3.0-or-later
+tags:
+  - domino
+  - datalab
+  - mlops
+  - ai
+  - ml
+  - tools
+  - cloud
+  - data_science
+dependencies: {}
+repository: https://github.com/stevefulme1/ansible-domino
+documentation: https://github.com/stevefulme1/ansible-domino/blob/main/README.md
+homepage: https://github.com/stevefulme1/ansible-domino
+issues: https://github.com/stevefulme1/ansible-domino/issues
+build_ignore:
+  - .git
+  - .github
+  - tests/output

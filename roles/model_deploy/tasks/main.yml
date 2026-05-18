@@ -1,0 +1,9 @@
+---
+- name: Validate required variables
+  ansible.builtin.assert:
+    that: model_deploy_api_url is defined
+    quiet: true
+
+- name: Execute model_deploy
+  ansible.builtin.debug:
+    msg: "Role model_deploy for stevefulme1.domino"

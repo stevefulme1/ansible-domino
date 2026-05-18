@@ -1,0 +1,7 @@
+---
+ancestor: null
+releases:
+  1.0.0:
+    release_date: '2025-05-18'
+    changes:
+      release_summary: Initial release of stevefulme1.domino collection.

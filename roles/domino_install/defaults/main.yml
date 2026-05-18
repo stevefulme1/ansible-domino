@@ -1,0 +1,4 @@
+---
+domino_install_api_url: ''
+domino_install_api_key: ''
+domino_install_state: present

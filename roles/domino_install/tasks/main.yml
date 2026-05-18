@@ -1,0 +1,9 @@
+---
+- name: Validate required variables
+  ansible.builtin.assert:
+    that: domino_install_api_url is defined
+    quiet: true
+
+- name: Execute domino_install
+  ansible.builtin.debug:
+    msg: "Role domino_install for stevefulme1.domino"
