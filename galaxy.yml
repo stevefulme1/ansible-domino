@@ -5,10 +5,7 @@ version: 0.0.1
 readme: README.md
 authors:
   - Steve Fulmer <sfulmer@redhat.com>
-description: "EXPERIMENTAL - proof of concept, not production ready. >-"
-  Ansible Collection for Domino Data Lab MLOps platform.
-  Provides modules for project, environment, model, endpoint, hardware tier,
-  dataset, job, and workspace management via the Domino REST API.
+description: "EXPERIMENTAL - proof of concept, not production ready. Ansible Collection for Domino Data Lab MLOps platform. Provides modules for project, environment, model, endpoint, hardware tier, dataset, job, and workspace management via the Domino REST API."
 license:
   - GPL-3.0-or-later
 tags:
